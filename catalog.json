@@ -1,0 +1,193 @@
+{
+  "version": 1,
+  "updated_at": "2026-05-07",
+  "items": [
+    {
+      "slug": "caveman",
+      "name": "Caveman",
+      "kind": "skill",
+      "description": "Token compression — terse caveman style. ~75% reduction while preserving accuracy.",
+      "author": "JuliusBrussee",
+      "version": "1.0",
+      "install_kind": "claude_plugin",
+      "install_url": "JuliusBrussee/caveman",
+      "tags": ["tokens", "compression", "style", "efficiency"]
+    },
+    {
+      "slug": "frontend-design",
+      "name": "Frontend Design",
+      "kind": "skill",
+      "description": "Production-grade UI generator. Distinctive, polished components avoiding generic AI aesthetics.",
+      "author": "anthropic-tools",
+      "version": "0.4",
+      "install_kind": "builtin",
+      "install_url": "frontend-design@claude-plugins-official",
+      "tags": ["ui", "frontend", "design", "components"]
+    },
+    {
+      "slug": "superpowers",
+      "name": "Superpowers",
+      "kind": "skill",
+      "description": "Brainstorming · plans · TDD · debugging · subagent orchestration. Reference workflow skills.",
+      "author": "anthropic-tools",
+      "version": "5.1",
+      "install_kind": "builtin",
+      "install_url": "superpowers@claude-plugins-official",
+      "tags": ["workflow", "tdd", "planning", "debugging", "subagents"]
+    },
+    {
+      "slug": "filesystem-mcp",
+      "name": "Filesystem MCP",
+      "kind": "mcp",
+      "description": "Read, write, list, search files via MCP. Sandbox to a chosen directory.",
+      "author": "modelcontextprotocol",
+      "version": "0.4",
+      "install_kind": "mcp_npx",
+      "install_url": "@modelcontextprotocol/server-filesystem",
+      "tags": ["files", "filesystem", "mcp", "official"]
+    },
+    {
+      "slug": "github-mcp",
+      "name": "GitHub MCP",
+      "kind": "mcp",
+      "description": "Read repos, issues, PRs via MCP. Auth via GITHUB_TOKEN env var.",
+      "author": "modelcontextprotocol",
+      "version": "0.5",
+      "install_kind": "mcp_npx",
+      "install_url": "@modelcontextprotocol/server-github",
+      "tags": ["github", "git", "mcp", "official"]
+    },
+    {
+      "slug": "slack-mcp",
+      "name": "Slack MCP",
+      "kind": "mcp",
+      "description": "Search messages, channels, threads on Slack via MCP.",
+      "author": "modelcontextprotocol",
+      "version": "0.3",
+      "install_kind": "mcp_npx",
+      "install_url": "@modelcontextprotocol/server-slack",
+      "tags": ["slack", "chat", "mcp", "official"]
+    },
+    {
+      "slug": "puppeteer-mcp",
+      "name": "Puppeteer MCP",
+      "kind": "mcp",
+      "description": "Headless browser automation — navigate, screenshot, click, fill forms.",
+      "author": "modelcontextprotocol",
+      "version": "0.3",
+      "install_kind": "mcp_npx",
+      "install_url": "@modelcontextprotocol/server-puppeteer",
+      "tags": ["browser", "automation", "scraping", "mcp", "official"]
+    },
+    {
+      "slug": "memory-mcp",
+      "name": "Memory MCP",
+      "kind": "mcp",
+      "description": "Knowledge graph memory — create entities, relations, recall across sessions.",
+      "author": "modelcontextprotocol",
+      "version": "0.3",
+      "install_kind": "mcp_npx",
+      "install_url": "@modelcontextprotocol/server-memory",
+      "tags": ["memory", "knowledge-graph", "mcp", "official"]
+    },
+    {
+      "slug": "fetch-mcp",
+      "name": "Fetch MCP",
+      "kind": "mcp",
+      "description": "HTTP fetch — retrieve URLs, parse HTML to markdown for LLM context.",
+      "author": "modelcontextprotocol",
+      "version": "0.2",
+      "install_kind": "mcp_npx",
+      "install_url": "@modelcontextprotocol/server-fetch",
+      "tags": ["http", "fetch", "web", "mcp", "official"]
+    },
+    {
+      "slug": "sqlite-mcp",
+      "name": "SQLite MCP",
+      "kind": "mcp",
+      "description": "Query SQLite databases — list tables, execute SELECT, describe schemas.",
+      "author": "modelcontextprotocol",
+      "version": "0.3",
+      "install_kind": "mcp_npx",
+      "install_url": "@modelcontextprotocol/server-sqlite",
+      "tags": ["database", "sql", "sqlite", "mcp", "official"]
+    },
+    {
+      "slug": "postgres-mcp",
+      "name": "Postgres MCP",
+      "kind": "mcp",
+      "description": "Read-only Postgres queries via MCP. Connection via PG_CONNECTION_STRING.",
+      "author": "modelcontextprotocol",
+      "version": "0.3",
+      "install_kind": "mcp_npx",
+      "install_url": "@modelcontextprotocol/server-postgres",
+      "tags": ["database", "sql", "postgres", "mcp", "official"]
+    },
+    {
+      "slug": "google-drive-mcp",
+      "name": "Google Drive MCP",
+      "kind": "mcp",
+      "description": "Browse and read files from Google Drive via MCP. OAuth setup required.",
+      "author": "modelcontextprotocol",
+      "version": "0.3",
+      "install_kind": "mcp_npx",
+      "install_url": "@modelcontextprotocol/server-gdrive",
+      "tags": ["google", "drive", "files", "mcp", "official"]
+    },
+    {
+      "slug": "gruvbox",
+      "name": "Gruvbox",
+      "kind": "theme",
+      "description": "Retro warm palette — yellow accent, brown bg. Great for daylight.",
+      "author": "morhetz",
+      "version": "1.0",
+      "install_kind": "builtin_theme",
+      "install_url": "gruvbox",
+      "tags": ["theme", "warm", "retro"]
+    },
+    {
+      "slug": "catppuccin",
+      "name": "Catppuccin Mocha",
+      "kind": "theme",
+      "description": "Soothing pastel — mauve accent. Hyper-popular in dev community.",
+      "author": "catppuccin",
+      "version": "1.0",
+      "install_kind": "builtin_theme",
+      "install_url": "catppuccin",
+      "tags": ["theme", "pastel", "popular"]
+    },
+    {
+      "slug": "dracula",
+      "name": "Dracula",
+      "kind": "theme",
+      "description": "Iconic dark — purple/pink accents on near-black. Classic.",
+      "author": "dracula",
+      "version": "1.0",
+      "install_kind": "builtin_theme",
+      "install_url": "dracula",
+      "tags": ["theme", "dark", "classic"]
+    },
+    {
+      "slug": "solarized-dark",
+      "name": "Solarized Dark",
+      "kind": "theme",
+      "description": "Ethan Schoonover's classic — low-contrast, scientifically calibrated.",
+      "author": "altercation",
+      "version": "1.0",
+      "install_kind": "builtin_theme",
+      "install_url": "solarized-dark",
+      "tags": ["theme", "dark", "low-contrast", "classic"]
+    },
+    {
+      "slug": "rose-pine",
+      "name": "Rose Pine",
+      "kind": "theme",
+      "description": "All natural pine, faux fur and a bit of soho vibes — pastel rose.",
+      "author": "rose-pine",
+      "version": "1.0",
+      "install_kind": "builtin_theme",
+      "install_url": "rose-pine",
+      "tags": ["theme", "pastel", "rose"]
+    }
+  ]
+}
